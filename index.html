@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="assets/img/css/style.css">
+
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html"> Home </a>
         </li>
@@ -16,32 +19,58 @@
         </li>
     </ul>
 
-    <h1>Sobre Harry</h1>
-
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Laboriosam voluptatum libero, illo officiis dolorum tempora.
-          Nobis quas neque, praesentium distinctio saepe dolorum vel obcaecati 
-          excepturi sit labore facilis voluptatibus similique!
+    <h1 class="center">Sobre Harry</h1>
+    <div class="container"> 
+        <div class="p-30">
+        <p class="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Laboriosam voluptatum libero, illo officiis dolorum tempora.
+              Nobis quas neque, praesentium distinctio saepe dolorum vel obcaecati 
+              excepturi sit labore facilis voluptatibus similique!
+            </p>
+              <p class="justify">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Earum, quod necessitatibus magni minima cupiditate, iste enim eum 
+              velit distinctio illum natus, quas eveniet reprehenderit fuga.
+             Assumenda natus neque ipsa tenetur.
         </p>
-          <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-          Earum, quod necessitatibus magni minima cupiditate, iste enim eum 
-          velit distinctio illum natus, quas eveniet reprehenderit fuga.
-         Assumenda natus neque ipsa tenetur.
-    </p>
+    </div>
 
-    <img src="assets/img/foto harry.jpg" alt="Foto do criador desse conteúdo">
+    <div>
+        <img class="br-50 wh-300 p-30" src="assets/img/foto harry.jpg" alt="Foto do criador desse conteúdo">
+    </div>
 
-    <h2>Live In Studio:</h2>
+    </div>
+    
 
-    <iframe width="560" 
+    <h2 class="center">Live In Studio:</h2>
+
+    <div class="container mb-50">
+        <iframe width="560" 
     height="315" 
     src="https://www.youtube.com/embed/43polup8FIU" 
     title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
+    </div>
+    
+    <hr>
+    <footer>
+
+        <div class="container">
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+            </a>
+
+        </div>
+
+        <p class="center">
+        Todos os direitos reservados: Harry Styles &copy;
+        </p>
+    </footer>
+   
 
 </body>
 </html>
